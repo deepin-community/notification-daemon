@@ -1,0 +1,2 @@
+rm_conffile /etc/xdg/autostart/notification-daemon.desktop 3.17.2-2~ notification-daemon
+rm_conffile /etc/xdg/autostart/notification-daemon-autostart.desktop 3.20.0-1~ notification-daemon

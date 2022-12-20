@@ -1,0 +1,162 @@
+# Swedish translation for notification-daemon.
+# Copyright © 2006-2015 Free Software Foundation
+# This file is distributed under the same license as the notification-daemon package.
+# Daniel Nylander <po@danielnylander.se>, 2006, 2010, 2011.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: notification-daemon\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=notification-"
+"daemon&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2015-10-07 12:09+0000\n"
+"PO-Revision-Date: 2015-10-07 23:15+0200\n"
+"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.5\n"
+
+#: data/notification-daemon.desktop.in.in:3
+#: data/notification-daemon-autostart.desktop.in.in:3
+msgid "Notification Daemon"
+msgstr "Aviseringsdemon"
+
+#: data/notification-daemon.desktop.in.in:4
+#: data/notification-daemon-autostart.desktop.in.in:4
+msgid "Display notifications"
+msgstr "Visa aviseringar"
+
+#: src/nd-bubble.c:522 src/nd-bubble.c:524 src/nd-notification-box.c:318
+#: src/nd-notification-box.c:320
+msgid "Closes the notification."
+msgstr "Stänger aviseringen."
+
+#: src/nd-bubble.c:540 src/nd-bubble.c:564 src/nd-notification-box.c:336
+msgid "Notification summary text."
+msgstr "Sammanfattningstext för avisering."
+
+#: src/nd-daemon.c:113
+msgid "Invalid notification identifier"
+msgstr "Ogiltig aviseringsidentifierare"
+
+#: src/nd-daemon.c:193
+msgid "Exceeded maximum number of notifications"
+msgstr "Översteg maximalt antal aviseringar"
+
+#: src/nd-main.c:34
+msgid "Enable debugging code"
+msgstr "Aktivera felsökningskod"
+
+#: src/nd-main.c:40
+msgid "Replace a currently running application"
+msgstr "Ersätt ett för närvarande körande program"
+
+#: src/nd-notification-box.c:356
+msgid "Notification body text."
+msgstr "Huvudtext för avisering."
+
+#: src/nd-queue.c:459
+msgid "Clear all notifications"
+msgstr "Töm alla aviseringar"
+
+#: src/nd-queue.c:939
+msgid "Notifications"
+msgstr "Aviseringar"
+
+#~ msgid "Notification"
+#~ msgstr "Avisering"
+
+#~ msgid "Current theme"
+#~ msgstr "Aktuellt tema"
+
+#~ msgid "Default Sound"
+#~ msgstr "Standardljud"
+
+#~ msgid ""
+#~ "Default popup location on the workspace for stack notifications. Allowed "
+#~ "values: \"top_left\",\"top_right\",\"bottom_left\" and \"bottom_right\""
+#~ msgstr ""
+#~ "Standardposition för popup-rutor på arbetsutan för notifieringar. Tillåtna "
+#~ "värden: \"top_left\",\"top_right\",\"bottom_left\" och \"bottom_right\""
+
+#~ msgid "Popup location"
+#~ msgstr "Popup-position"
+
+#~ msgid "Sound Enabled"
+#~ msgstr "Ljud aktiverat"
+
+#~ msgid ""
+#~ "The default sound file used unless a notification supplies the 'sound-file' or "
+#~ "'suppress-sound' hint. Leave empty for no default sound."
+#~ msgstr ""
+#~ "Standardljudfilen som används såvida inte en notifiering anger \"sound-file\" "
+#~ "eller \"suppress-sound\". Lämna tom för inget standardljud."
+
+#~ msgid "The theme used when displaying notifications."
+#~ msgstr "Temat som används för visning av notifieringar."
+
+#~ msgid "Turns on and off sound support for notifications."
+#~ msgstr "Slår på och av ljudstöd för notifieringar."
+
+#~ msgid "Slider"
+#~ msgstr "Draglist"
+
+#~ msgid "Standard theme"
+#~ msgstr "Standardtema"
+
+#~ msgid "Error initializing libnotify"
+#~ msgstr "Fel vid initiering av libnotify"
+
+#~ msgid "Just a test"
+#~ msgstr "Bara ett test"
+
+#~ msgid "Error while displaying notification: %s"
+#~ msgstr "Fel vid visning av notifiering: %s"
+
+#~ msgid "Could not load user interface file: %s"
+#~ msgstr "Kunde inte läsa in användargränssnittsfil: %s"
+
+#~ msgid "Pop-Up Notifications"
+#~ msgstr "Popup-notifieringar"
+
+#~ msgid "Set your pop-up notification preferences"
+#~ msgstr "Konfigurera dina inställningar för popupnotifieringar"
+
+#~ msgid "Top Left"
+#~ msgstr "Övre vänster"
+
+#~ msgid "Top Right"
+#~ msgstr "Övre höger"
+
+#~ msgid "Bottom Left"
+#~ msgstr "Nedre vänster"
+
+#~ msgid "Bottom Right"
+#~ msgstr "Nedre höger"
+
+#~ msgid "Ubuntu theme"
+#~ msgstr "Ubuntu-tema"
+
+#~ msgid "Unable to locate glade file '%s'"
+#~ msgstr "Kunde inte hitta glade-filen \"%s\""
+
+#~ msgid "      "
+#~ msgstr "      "
+
+#~ msgid "<b>General Options</b>"
+#~ msgstr "<b>Allmänna alternativ</b>"
+
+#~ msgid "Notification Settings"
+#~ msgstr "Notifieringsinställningar"
+
+#~ msgid "P_osition:"
+#~ msgstr "P_osition:"
+
+#~ msgid "_Preview"
+#~ msgstr "_Förhandsvisning"
+
+#~ msgid "_Theme:"
+#~ msgstr "_Tema:"

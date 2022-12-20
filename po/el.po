@@ -1,0 +1,125 @@
+# Greek translation for notification-daemon.
+# Copyright (C) 2010 notification-daemon's COPYRIGHT HOLDER
+# This file is distributed under the same license as the notification-daemon package.
+# Kostas Papadimas <pkst@gmx.net>, 2010.
+# Michael Kotsarinis <mk73628@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: notification-daemon master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=notification-"
+"daemon&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2015-09-17 15:52+0000\n"
+"PO-Revision-Date: 2015-09-30 23:39+0300\n"
+"Last-Translator: Tom Tryfonidis <tomtryf@gmail.com>\n"
+"Language-Team: team@gnome.gr\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../src/nd-bubble.c:522 ../src/nd-bubble.c:524 ../src/nd-notification-box.c:318
+#: ../src/nd-notification-box.c:320
+msgid "Closes the notification."
+msgstr "Κλείνει την ειδοποίηση."
+
+#: ../src/nd-bubble.c:540 ../src/nd-bubble.c:564 ../src/nd-notification-box.c:336
+msgid "Notification summary text."
+msgstr "Περιληπτικό κείμενο ειδοποίησης."
+
+#: ../src/nd-daemon.c:113
+msgid "Invalid notification identifier"
+msgstr "Μη έγκυρο αναγνωριστικό ειδοποίησης"
+
+#: ../src/nd-daemon.c:193
+msgid "Exceeded maximum number of notifications"
+msgstr "Έγινε υπέρβαση του μέγιστου αριθμού ειδοποιήσεων"
+
+#: ../src/nd-main.c:34
+msgid "Enable debugging code"
+msgstr "Ενεργοποίηση κώδικα αποσφαλμάτωσης"
+
+#: ../src/nd-main.c:40
+msgid "Replace a currently running application"
+msgstr "Αντικατάσταση μιας τρέχουσας εκτελούμενης εφαρμογής"
+
+#: ../src/nd-notification-box.c:356
+msgid "Notification body text."
+msgstr "Σώμα κειμένου ειδοποίησης."
+
+#: ../src/nd-queue.c:459
+msgid "Clear all notifications"
+msgstr "Εκκαθάριση όλων των ειδοποιήσεων"
+
+#: ../src/nd-queue.c:939
+msgid "Notifications"
+msgstr "Ειδοποιήσεις"
+
+#~ msgid "Notification"
+#~ msgstr "Ειδοποίηση"
+
+#~ msgid "Notification Daemon"
+#~ msgstr "Υπηρεσία ειδοποίησης"
+
+#~ msgid "Display notifications"
+#~ msgstr "Εμφάνιση ειδοποιήσεων"
+
+#~ msgid "Current theme"
+#~ msgstr "Τρέχον θέμα"
+
+#~ msgid "Default Sound"
+#~ msgstr "Προεπιλεγμένος ήχος"
+
+#~ msgid ""
+#~ "Default popup location on the workspace for stack notifications. Allowed "
+#~ "values: \"top_left\",\"top_right\",\"bottom_left\" and \"bottom_right\""
+#~ msgstr ""
+#~ "Προεπιλεγμένη τοποθεσία αναδυόμενης ειδοποίησης στο χώρο εργασίας. Οι "
+#~ "επιτρεπόμενες τιμές είναι \"top_left\",\"top_right\",\"bottom_left\" και "
+#~ "\"bottom_right\""
+
+#~ msgid "Popup location"
+#~ msgstr "Τοποθεσία αναδυομένου"
+
+#~ msgid "Sound Enabled"
+#~ msgstr "Ήχος ενεργοποιημένος"
+
+#~ msgid ""
+#~ "The default sound file used unless a notification supplies the 'sound-file' or "
+#~ "'suppress-sound' hint. Leave empty for no default sound."
+#~ msgstr ""
+#~ "Το προεπιλεγμένο αρχείο ήχου που θα χρησιμοποιείται εκτός και αν η ειδοποίηση "
+#~ "παρέχει την δική της ρύθμιση 'αρχείου ήχου' ή 'σίγασης ήχου'. Αφήστε το κενό "
+#~ "για κανένα προεπιλεγμένο ήχο."
+
+#~ msgid "The theme used when displaying notifications."
+#~ msgstr "Το θέμα που χρησιμοποιείται κατά την εμφάνιση ειδοποιήσεων."
+
+#~ msgid "Turns on and off sound support for notifications."
+#~ msgstr "Ενεργοποιεί ή απενεργοποιεί την υποστήριξη ήχου για τις ειδοποιήσεις."
+
+#~ msgid "Slider"
+#~ msgstr "Μπάρα κύλισης"
+
+#~ msgid "Standard theme"
+#~ msgstr "Τυπικό θέμα"
+
+#~ msgid "Error initializing libnotify"
+#~ msgstr "Σφάλμα ενεργοποίησης libnotify"
+
+#~ msgid "Just a test"
+#~ msgstr "Αυτό είναι μια δοκιμή"
+
+#~ msgid "Error while displaying notification: %s"
+#~ msgstr "Σφάλμα εμφάνισης ειδοποιήσεων: %s"
+
+#~ msgid "Could not load user interface file: %s"
+#~ msgstr "Αδυναμία φόρτωσης αρχείου περιβάλλοντος χρήσης: %s"
+
+#~ msgid "Pop-Up Notifications"
+#~ msgstr "Αναδυόμενες ειδοποιήσεις"
+
+#~ msgid "Set your pop-up notification preferences"
+#~ msgstr "Ρύθμιση των προτιμήσεων των αναδυόμενων ειδοποιήσεων"
